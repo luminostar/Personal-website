@@ -1,4 +1,4 @@
-/* Namari Landing Page Dynamic Style Index
+/* Rafi Landing Page Dynamic Style Index
 
 1. Website Default Styling
 2. Navigation
@@ -37,11 +37,11 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
+#banner .section-heading:before, .about.classic footer:before {
     background: #d2b356;
 }
 
-.pricing-block-content:hover {
+.favorite-block-content:hover {
     border-color:#d2b356;
 }
 
@@ -81,11 +81,11 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Primary Background and Text Colors */
 
-.primary-color, .featured .pricing {
+.primary-color, .featured .favorite {
     background-color:#d2b356;
 }
 
-.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .favorite, .featured .favorite p {
     color:#fff;
 }
 
@@ -124,7 +124,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
     background-size:cover;
 }
 
@@ -194,15 +194,15 @@ body {
     color:#9c9c9c;
 }
 
-/* Testimonial */
+/* About */
 
-.testimonial q {
+.about q {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 17px;
     font-weight:300;
 }
 
-.testimonial.classic q, .testimonial.classic footer {
+.about.classic q, .about.classic footer {
     color:#111;
 }
 

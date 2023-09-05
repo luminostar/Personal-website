@@ -1,4 +1,4 @@
-/* Namari Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
+/* Rafi Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
 
 1. Default and Reset styles
 - 1.1 Input Elements
@@ -18,11 +18,11 @@
 - 5.3 Divider
 6. Landing Page Sections
 - 6.1 Features
-- 6.2 Testimonials
+- 6.2 About
 - 6.3 Gallery
 - 6.4 Video
-- 6.5 Clients
-- 6.6 Pricing Table
+- 6.5 Professions
+- 6.6 Hobby Table
 7. Footer
 
 
@@ -216,7 +216,7 @@ section {
     padding: 20px;
 }
 
-#clients .col-2-3 [class*='col-'] {
+#professions .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -926,9 +926,9 @@ h6 {
     clear: both;
 }
 
-/* --------- 6.3 Testimonials ---------- */
+/* --------- 6.3 About ---------- */
 
-.testimonial {
+.about {
     padding: 15px;
 }
 
@@ -936,27 +936,27 @@ blockquote {
     position: relative;
 }
 
-.testimonial img {
+.about img {
     max-height: 120px;
     border-radius: 250em;
 }
 
-.testimonial footer {
+.about footer {
     padding-top: 12px;
 }
 
-/* Style Classic - Avatar above Testimonial */
+/* Style Classic - Avatar above Character */
 
-.testimonial.classic img {
+.about.classic img {
     display: inline-block;
     margin-bottom: 25px;
 }
 
-.testimonial.classic q {
+.about.classic q {
     display: block;
 }
 
-.testimonial.classic footer:before {
+.about.classic footer:before {
     display: block;
     content: "";
     width: 30px;
@@ -966,11 +966,11 @@ blockquote {
 
 /* Style Big */
 
-.testimonial.bigtest {
+.about.bigtest {
     padding-top: 0;
 }
 
-.testimonial.bigtest q {
+.about.bigtest q {
     font-size: 22px;
 }
 
@@ -1379,9 +1379,9 @@ blockquote {
     cursor: pointer;
 }
 
-/* --------- 6.6 Clients ---------- */
+/* --------- 6.6 professions ---------- */
 
-#clients a {
+#professions a {
     display: block;
     text-align: center;
     position: relative;
@@ -1390,16 +1390,15 @@ blockquote {
     color: #fff;
 }
 
-#clients img {
+#professions img {
     display: inline-block;
     padding: 15px 25px;
 }
 
-.client-overlay {
+.profession-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -1412,11 +1411,11 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#professions a:hover .profession-overlay {
     opacity: 1;
 }
 
-.client-overlay span {
+.profession-overlay span {
     position: absolute;
     top: 48%;
     left: 0;
@@ -1425,11 +1424,11 @@ blockquote {
     display: inline-block;
 }
 
-/* --------- 6.7 Pricing Table ---------- */
+/* --------- 6.7 Hobby Table ---------- */
 
-.pricing-block-content1 {
-    background: url("../images/hobby-images/basketball.jpg");
-    height: 500px;
+.favorite-block-content {
+    max-height: 500px;
+    background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
     transition: all 0.2s ease-in-out 0s;
@@ -1437,9 +1436,11 @@ blockquote {
     border: 10px solid #fff;
 }
 
-.pricing-block-content2 {
-    background: url("../images/hobby-images/basketball.jpg");
+/* favorite Block Content 1 */
+.bg-image-1 {
     height: 500px;
+    background: url('/images/hobby-images/basketball.jpg'); /* Replace 'image1.jpg' with the URL of your first background image */
+    background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
     transition: all 0.2s ease-in-out 0s;
@@ -1447,9 +1448,11 @@ blockquote {
     border: 10px solid #fff;
 }
 
-.pricing-block-content3 {
-    background: url("../images/hobby-images/basketball.jpg");
+/* favorite Block Content 2 */
+.bg-image-2 {
     height: 500px;
+    background: url('/images/hobby-images/programming.jpg'); /* Replace 'image2.jpg' with the URL of your second background image */
+    background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
     transition: all 0.2s ease-in-out 0s;
@@ -1457,56 +1460,55 @@ blockquote {
     border: 10px solid #fff;
 }
 
-
-.pricing-block ul {
-    list-style: none;
-    margin: 25px 0 25px 0;
+/* favorite Block Content 3 */
+.bg-image-3 {
+    height: 500px;
+    background: url('/images/hobby-images/badminton.jpg'); /* Replace 'image3.jpg' with the URL of your third background image */
+    background-size: cover;
+    padding: 25px 0 25px 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    transition: all 0.2s ease-in-out 0s;
+    position: relative;
+    border: 10px solid #fff;
 }
 
-.pricing-block li {
-    padding: 14px 0;
-    border-bottom: 1px dotted #e1e1e1;
-}
-
-.pricing-block li:last-of-type {
-    border:none;
-}
-
-.pricing-block h3 {
+.favorite-block h3 {
     font-size:17px;
     text-transform:uppercase;
     padding-bottom:0;
 }
 
-.pricing-sub {
+.favorite-sub {
     font-style: italic;
+    font-weight: bolder;
     color:#ccc;
     margin:0 0 25px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
-/*Price*/
+/*Hobby*/
 
-.pricing {
+.favorite {
     background: #f5f5f5;
     padding: 25px;
     position: relative;
 }
 
-.price {
+.hobby {
     display: inline-block;
     font-size: 62px;
     font-weight: 700;
     position: relative;
 }
 
-.price span {
+.hobby span {
     position: absolute;
     top: 0;
     left: -20px;
     font-size: 22px;
 }
 
-.pricing  p {
+.favorite  p {
     font-style:italic;
     color:#b4b4b4;
     line-height:auto;
