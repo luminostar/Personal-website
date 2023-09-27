@@ -1391,6 +1391,8 @@ blockquote {
 }
 
 #projects img {
+    max-width: 250px;
+    max-height:200px:
     display: inline-block;
     padding: 15px 25px;
 }
