@@ -21,7 +21,7 @@
 - 6.2 About
 - 6.3 Gallery
 - 6.4 Video
-- 6.5 Professions
+- 6.5 Projects
 - 6.6 Hobby Table
 7. Footer
 
@@ -216,7 +216,7 @@ section {
     padding: 20px;
 }
 
-#professions .col-2-3 [class*='col-'] {
+#projects .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -1379,9 +1379,9 @@ blockquote {
     cursor: pointer;
 }
 
-/* --------- 6.6 professions ---------- */
+/* --------- 6.6 projects ---------- */
 
-#professions a {
+#projects a {
     display: block;
     text-align: center;
     position: relative;
@@ -1390,12 +1390,12 @@ blockquote {
     color: #fff;
 }
 
-#professions img {
+#projects img {
     display: inline-block;
     padding: 15px 25px;
 }
 
-.profession-overlay {
+.project-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
@@ -1411,11 +1411,11 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#professions a:hover .profession-overlay {
+#projects a:hover .project-overlay {
     opacity: 1;
 }
 
-.profession-overlay span {
+.project-overlay span {
     position: absolute;
     top: 48%;
     left: 0;
