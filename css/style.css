@@ -1441,7 +1441,7 @@ blockquote {
 /* favorite Block Content 1 */
 .bg-image-1 {
     height: 500px;
-    background: url('/images/hobby-images/basketball.jpg'); /* Replace 'image1.jpg' with the URL of your first background image */
+    background: url('../images/hobby-images/basketball.jpg'); /* Replace 'image1.jpg' with the URL of your first background image */
     background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
@@ -1453,7 +1453,7 @@ blockquote {
 /* favorite Block Content 2 */
 .bg-image-2 {
     height: 500px;
-    background: url('/images/hobby-images/programming.jpg'); /* Replace 'image2.jpg' with the URL of your second background image */
+    background: url('../images/hobby-images/programming.jpg'); /* Replace 'image2.jpg' with the URL of your second background image */
     background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
@@ -1465,7 +1465,7 @@ blockquote {
 /* favorite Block Content 3 */
 .bg-image-3 {
     height: 500px;
-    background: url('/images/hobby-images/badminton.jpg'); /* Replace 'image3.jpg' with the URL of your third background image */
+    background: url('../images/hobby-images/badminton.jpg'); /* Replace 'image3.jpg' with the URL of your third background image */
     background-size: cover;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
